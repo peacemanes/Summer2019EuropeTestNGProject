@@ -16,5 +16,7 @@ public class LinkTextAndPartialLinkText {
         //driver.findElement(By.linkText("Home")).click();
         WebElement link6=driver.findElement(By.partialLinkText("Example 6"));
         link6.click();
+
+
     }
 }
