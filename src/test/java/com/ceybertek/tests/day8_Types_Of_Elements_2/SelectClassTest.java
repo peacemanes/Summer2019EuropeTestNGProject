@@ -18,7 +18,7 @@ public class SelectClassTest {
 
         WebElement dropdownElement=driver.findElement(By.id("state"));
         Select statelist=new Select(dropdownElement);
-
+       // Select statelist=new Select(driver.findElement(By.id("state"));  we can do this way practically
         List<WebElement> options=statelist.getOptions();
         System.out.println(options.size());
         for (WebElement option : options) {
